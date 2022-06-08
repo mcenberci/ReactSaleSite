@@ -1,0 +1,96 @@
+.productFrames {
+    padding-left: 0.5% !important;
+    padding-right: 0.5% !important;
+    height: 250px;
+    border-radius: 50px;
+    width: 11.5%;
+    margin-right: 0.5% !important;
+    margin-left: 0.5% !important;
+    position: relative;
+}
+.categorysframe{
+    height: 210px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.categorys{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.divFrame {
+    width: 90%;
+}
+
+.pFBG1 {
+    background-color: rgb(107, 206, 187);
+    text-align: center;
+}
+
+.pFBG2 {
+    background-color: rgb(163, 206, 113);
+    text-align: center;
+}
+
+.pFBG3 {
+    background-color: rgb(50, 127, 182);
+    text-align: center;
+}
+
+.pFBG4 {
+    background-color: rgb(251, 134, 54);
+    text-align: center;
+}
+
+.pFBG5 {
+    background-color: rgb(255, 210, 0);
+    text-align: center;
+}
+
+.pFBG6 {
+    background-color: rgb(255, 125, 145);
+    text-align: center;
+}
+.pFBG7 {
+    background-color: rgb(32, 195, 243);
+    text-align: center;
+}
+.pFBG8 {
+    background-color: rgb(236, 126, 189);
+    text-align: center;
+}
+.mpdiv{
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.underLineNone{
+    text-decoration-line: none !important;
+}
+.mainpageimg{
+    border-radius: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.protitle{
+    font: bold 24px / 28px Roboto, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.prodiv{
+    margin-top: 30px;
+}

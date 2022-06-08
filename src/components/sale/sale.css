@@ -1,0 +1,43 @@
+body {
+    overflow-y: scroll;
+  }
+.saleDef{
+    width: 100%;
+    border-radius: 50%;
+    border:3px solid rgb(245, 150, 107);
+}
+.uploadImageCard{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+.btnaddsale{
+    background-color: rgb(245, 150, 107);
+    border-color: rgb(245, 150, 107);
+    color: white;
+    width: fit-content;
+    margin-top: 304px;
+}
+.btnaddsale:hover{
+    background-color: rgb(255, 158, 112);
+    border-color: rgb(255, 158, 112);
+    color: white;
+}
+.salediv{
+    margin-top: 30px;
+    min-height: 651px;
+}
+.gndrbt{
+    width: 100px;
+    border-radius: 25px;
+    border: 0px;
+    background-color:rgb(245, 150, 107);
+    height: 50px;
+    color: white;
+    margin-left: 378px;
+    margin-top: 40px;
+}
+.gndrbt:hover{
+    background-color: rgb(255, 158, 112);
+}

@@ -1,0 +1,57 @@
+body {
+    overflow-y: scroll;
+}
+
+.ProfileImg {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid rgb(245, 150, 107);
+
+}
+
+.data {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+
+}
+
+.data h4 {
+    margin-bottom: 15px;
+}
+
+.data h1 {
+    color: rgb(245, 150, 107);
+    margin-bottom: 50px;
+}
+
+.data h4 b {
+    color: rgb(245, 150, 107);
+}
+
+.data a {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.datas {
+    margin-top: 50px;
+}
+
+.changeButton {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.atxt {
+    text-decoration: none;
+    color: white;
+}
+
+.mar-top-bot {
+    margin-top: auto;
+    margin-bottom: auto;
+}
