@@ -103,7 +103,7 @@ function CommentsDiv() {
 function ProductPages() {
     const [commentp, setcommentp] = useState("")
     function Mac(x) {
-        if (JSON.parse(localStorage.getItem("LogCheck")) == 1) {
+        if (JSON.parse(localStorage.getItem("LogCheck")) === 1) {
             const comm = JSON.parse(localStorage.getItem("Comments"));
             const c = comm.length;
             comm[comm.length] = { id: c, productid: JSON.parse(localStorage.getItem("PRid")), comment: x, memberid: JSON.parse(localStorage.getItem("id")) }
@@ -165,7 +165,6 @@ function saga(){
                             <hr />
                             <h6>Satıcı Konum :</h6>
                             <hr />
-                            <a href="/messages" className="btnsendmsg"><button type="submit" onClick={saga} className="btn btn-primary addSale btnsendmsg">Mesaj Gönder</button></a>
                         </div>
                         <div className="col-6">
                             <h6>{JSON.parse(localStorage.getItem("DealerName")) + " " + JSON.parse(localStorage.getItem("DealerSurname"))}</h6>
@@ -174,6 +173,7 @@ function saga(){
                             <hr />
                             <h6>{JSON.parse(localStorage.getItem("DealerCity")) + "/" + JSON.parse(localStorage.getItem("DealerTown"))}</h6>
                             <hr />
+                            <a href="/messages" className="btnsendmsg"><button type="submit" onClick={saga} className="btn btn-primary addSale">Mesaj Gönder</button></a>
                         </div>
                     </div>
                     <div className="col-3">
