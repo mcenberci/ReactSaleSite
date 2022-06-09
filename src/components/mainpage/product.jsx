@@ -103,7 +103,7 @@ function CommentsDiv() {
 function ProductPages() {
     const [commentp, setcommentp] = useState("")
     function Mac(x) {
-        if (JSON.parse(localStorage.getItem("LogCheck")) === 1) {
+        if (JSON.parse(localStorage.getItem("LogCheck")) === true) {
             const comm = JSON.parse(localStorage.getItem("Comments"));
             const c = comm.length;
             comm[comm.length] = { id: c, productid: JSON.parse(localStorage.getItem("PRid")), comment: x, memberid: JSON.parse(localStorage.getItem("id")) }
